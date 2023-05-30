@@ -1,0 +1,19 @@
+{
+  "name": "cypress-testingboard",
+  "version": "1.0.0",
+  "description": "this is sample cypress framrework to test magento app",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open --browser chrome",
+    "test": "cypress run"
+  },  
+  "author": "uday08bce@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest"
+  }
+}

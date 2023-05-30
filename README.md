@@ -5,6 +5,7 @@ This test suite contains automated tests for the Magento application using Cypre
 ## Project Structure
 
 The project has the following structure:
+```shell
 cypress-testingboard/
 ├── e2e/
 │   └── magento-app/
@@ -21,7 +22,7 @@ cypress-testingboard/
 │           └── Homepage.js
 ├── cypress.config.js
 └── README.md
-
+```
 
 
 - `e2e/magento-app/`: The root directory for Cypress tests.
@@ -38,10 +39,11 @@ To run the tests, open a terminal and navigate to the root directory of the proj
 
 ```shell
 npx cypress run
-
+```
 This will execute all the feature files headlessly in the default browser (Chrome). The test execution will be logged in the terminal.
 
 To run the tests in the Cypress Test Runner for interactive debugging, use the following command:
 
 ```shell
 npx cypress open
+```

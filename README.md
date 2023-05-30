@@ -6,21 +6,22 @@ This test suite contains automated tests for the Magento application using Cypre
 
 The project has the following structure:
 cypress-testingboard/
-|-- e2e/
-    |-- magento-app/
-        |-- homepage/
-        |-- homepage.feature
-            |-- homepageStepDef.js
-        |-- search/
-        |-- search.feature
-            |-- searchStepDef.js
-        |-- login/
-        |-- login.feature
-            |-- loginStepDef.js
-        |-- pageObjects/
-            |-- Homepage.js
-|-- cypress.config.js
-|-- README.md
+├── e2e/
+│   └── magento-app/
+│       ├── homepage/
+│       │   ├── homepage.feature
+│       │   └── homepageStepDef.js
+│       ├── search/
+│       │   ├── search.feature
+│       │   └── searchStepDef.js
+│       ├── login/
+│       │   ├── login.feature
+│       │   └── loginStepDef.js
+│       └── pageObjects/
+│           └── Homepage.js
+├── cypress.config.js
+└── README.md
+
 
 
 - `e2e/magento-app/`: The root directory for Cypress tests.
